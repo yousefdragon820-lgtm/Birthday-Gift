@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Birthday Gift 🎁</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                background: linear-gradient(135deg, #090014, #26004d, #75004f);
+                min-height: 100vh;
+            }
+
+            .welcome {
+                padding: 70px 20px 40px;
+            }
+
+            h1 {
+                font-size: 55px;
+                margin-bottom: 15px;
+            }
+
+            .welcome p {
+                font-size: 22px;
+            }
+
+            .gift {
+                margin: 30px auto;
+                padding: 30px;
+                width: 90%;
+                max-width: 100px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 30px;
+                backdrop-filter: blur(12px);
+            }
+
+            .gift h2 {
+                font-size: 32px;
+            }
+
+            .message {
+                font-size: 20px;
+                line-height: 1.7;
+            }
+
+            button {
+                padding: 15px 30px;
+                border: none;
+                border-radius: 30px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                background: white;
+                color: #75004f;
+            }
+
+            #secret {
+                display: none;
+                margin-top: 20px;
+                font-size: 22px;
+            }
+
+            .gallery {
+                margin: 40px auto;
+                width: 90%;
+                max-width: 1100px;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                gap: 18px;
+            }
+
+            .gallery img {
+                width: 100%;
+                height: 230px;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+            fooetr {
+                padding: 40px;
+            }  
+        </style>
+    </head>
+
+    <body>
+        <section class="welcome">
+            
+            <h1>🎂 Happy Birthday 🎉</h1>
+
+            <p>
+                A little surprise made spacially for you ❤️
+            </p>
+
+        </section>
+
+        <section class="gift">
+
+            <h2>🎁 To My Best Friend</h2>
+
+            <div class="message">
+                Happy Birthday bodetyyy 💞
+                <br>
+                I made this Little website for you
+                because you're someone really spacial to me.
+
+                <br><br>
+
+                i hope we make a lot more memories together 🔥
+
+            </div>
+
+            <button onclick="openGift()">
+                Open Your secret 🎁 
+            </button>
+
+            <div id="secret">
+            
+                ❤️ you're not getting rid of me that easily 😂🔥
+
+                <br>
+
+                Happy Birthday ya bodaaaaaa!
+
+                </div>
+
+                </section>
+
+                <h2>📸 Our Memories</h2>
+
+                <section class="gallery">
+
+                    <img src="boda image/photo1.jpeg">
+                    <img src="boda image/photo2.jpeg">
+                    <img src="boda image/photo3.jpeg">
+                    <img src="boda image/photo4.jpeg">
+                    <img src="boda image/photo5.jpeg">
+                    <img src="boda image/photo6.jpeg">
+                    <img src="boda image/photo7.jpeg">
+                    <img src="boda image/photo8.jpeg">
+                    <img src="boda image/photo9.jpeg">
+                    <img src="boda image/photo10.jpeg">
+                    <img src="boda image/photo11.jpeg">
+                    <img src="boda image/photo12.jpeg">
+                    <img src="boda image/photo13.jpeg">
+                    <img src="boda image/photo14.jpeg">
+                    <img src="boda image/photo15.jpeg">
+                    <img src="boda image/photo16.jpeg">
+                    <img src="boda image/photo17.jpeg">
+                    <img src="boda image/photo18.jpeg">
+                    <img src="boda image/photo19.jpeg">
+                    <img src="boda image/photo20.jpeg">
+
+                </section>
+
+                <footer>
+                    Made by joo for my favvv brother bodaa
+                </footer>
+
+                <script>
+
+                    function openGift() {
+
+                        document.getElementById("secret").style.display = "block";
+
+                    }
+                </script>
+
+</body>
+</html>
